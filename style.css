@@ -49,6 +49,12 @@ section.menu{
 
 section.title{
 
+
+}
+section.title .title__subsection{
+    text-align: center;
+    
+    
 }
 
 /*Sección About*/
@@ -68,6 +74,25 @@ section.hobbies{
 section.academic{
 
 }
+.skill,.skills__title{
+    display: flex;
+    align-items: center;
+}
+.skills__img, .skills__name{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+section.academic{
+    
+}
+
+
+.academic__courses__item__img img {
+    width: 100px; /* Cambia el valor según el tamaño deseado */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  }
+  
 
 /* experiencia*/
 
